@@ -527,7 +527,7 @@ static sw_inline void _sw_zend_bailout(const char *filename, uint32_t lineno)
 
 /* PHP 7.4 compatibility macro {{{*/
 #ifndef E_FATAL_ERRORS
-#define E_FATAL_ERRORS (E_ERROR | E_CORE_ERROR | E_COMPILE_ERROR | E_USER_ERROR | E_RECOVERABLE_ERROR | E_PARSE)
+#define E_FATAL_ERRORS (E_CORE_ERROR | E_COMPILE_ERROR | E_USER_ERROR | E_RECOVERABLE_ERROR | E_PARSE)
 #endif
 
 #ifndef ZEND_THIS
